@@ -20,7 +20,7 @@ yarn add --dev parcel-namer-struct
 
 Add a `.parcelrc` into your project root directory (next to package.json):
 
-```json
+```json5
 {
   "extends": "@parcel/config-default",
   "namers": [
@@ -31,7 +31,7 @@ Add a `.parcelrc` into your project root directory (next to package.json):
 ```
 
 Then set `parcel-namer-struct` field in `package.json`
-```json
+```json5
 // package.json
 {
   "parcel-namer-struct": [
